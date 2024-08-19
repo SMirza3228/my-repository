@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+
+    h1, h2, h3, h4, h5, h6 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+body {
+    background: rgb(155, 155, 255);
+}
+
+.header {
+    background-color: #ededed;
+}
+
+.header__container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 28px;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+    color: #000;
+}
+
+.list__link {
+    font-size: 16px;
+    font-weight: 400;
+    transition-duration: .3s;
+    color: #000;
+}
+
+.list__link:hover {
+    text-decoration: underline;
+}
+
+.btn-1 {
+    width: 150px;
+    height: 50px;
+    transition-duration: .3s;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+}
+
+.btn-1:hover {
+    background-color: orangered;
+    border: 2px solid orangered;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.about__text {
+    width: 500px;
+    padding-top: 130px;
+}
+
+.about__title {
+    font-size: 43px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.about__desc {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.about__desc-2 {
+    width: 400px;
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+@media (max-width: 676px) {
+    .header__nav {
+       
+    }
+
+    .btn-1 {
+        display: none;
+    }
+
+    .hamburder {
+        display: block;
+    }
+
+    .main__text {
+        width: 300px;
+    }
+
+    .main__title {
+        font-size: 35px;
+    }
+
+    .main__desc {
+        font-size: 16px;
+    }
+
+    .about__text {
+        width: 350px;
+    }
+    
+}
+
