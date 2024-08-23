@@ -89,6 +89,10 @@ body {
     background-color: #ededed4b;
 }
 
+.menu-sidebar {
+    display: none;
+}
+
 .close-pointer {
     cursor: pointer;
 }
@@ -190,5 +194,10 @@ body {
 
     .header__list {
         display: none;
+    }
+
+    .menu-sidebar {
+        cursor: pointer;
+        display: block;
     }
 }

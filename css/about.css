@@ -77,6 +77,10 @@ body {
     cursor: pointer;
 }
 
+.menu-sidebar {
+    display: none;
+}
+
 
 .btn-1 {
     width: 150px;
@@ -104,6 +108,17 @@ body {
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.about {
+    min-height: 95vh;
+    background-color: #00000037;
+    z-index: 50;
+    background-image: url(../img/my-comp2.jpg);
+    backdrop-filter: blur(-20px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .about__text {
@@ -160,6 +175,11 @@ body {
 
     .header__list {
         display: none;
+    }
+
+    .menu-sidebar {
+        cursor: pointer;
+        display: block;
     }
     
 }
