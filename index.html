@@ -21,18 +21,20 @@
                 </div>
 
                 <nav class="header__nav">
+                    <ul class="sidebar">
+                        <li onclick="hideSidebar()" class="close-pointer"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                        <li><a href="index.html" class="list__link">Home</a></li>
+                        <li><a href="about.html" class="list__link">About</a></li>
+                        <li><a href="portfolio.html" class="list__link">Portfolio</a></li>
+                    </ul>
+
                     <ul class="header__list">
                         <li><a href="index.html" class="list__link">Home</a></li>
                         <li><a href="about.html" class="list__link">About</a></li>
                         <li><a href="portfolio.html" class="list__link">Portfolio</a></li>
                     </ul>
-                </nav>
-                <div class="hamburger" onclick="this">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                </div>
-                
+                    <li onclick="showSidebar()" class="menu-sidebar"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                </nav> 
             </div>
         </div>
     </header>
